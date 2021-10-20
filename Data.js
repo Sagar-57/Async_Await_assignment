@@ -6,7 +6,7 @@ import Slider from "./Slider"; //slider class component
 import Loader from "react-loader-spinner";
 
 const url =
-  "https://api.themoviedb.org/3/movie/upcoming?api_key=81f382d33088c6d52099a62eab51d967&language=en-US&page=1";
+  "https://api.themoviedb.org/3/movie/upcoming?api_key=81f382d33088c6d52099a62eab51d967&language=en-US&page=2";
 
 class Data extends Component {
   constructor(){
