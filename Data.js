@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
-import AdditionalInfo from "./Additionalinfo"; //additional info is the class component
-import Slider from "./Slider"; //slider class component
+import AdditionalInfo from "./Additionalinfo"; 
+import Slider from "./Slider"; 
 import Loader from "react-loader-spinner";
 
 const url =
@@ -21,7 +21,7 @@ class Data extends Component {
     this.setState({
       movieId: e.target.id,
     });
-    console.log(e.target.id); //displaying the id
+    console.log(e.target.id);
   };
   async componentDidMount(){
     try{
