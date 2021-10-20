@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"; //importing router
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 import AdditionalInfo from "./Additionalinfo"; //additional info is the class component
 import Slider from "./Slider"; //slider class component
 import Loader from "react-loader-spinner";
